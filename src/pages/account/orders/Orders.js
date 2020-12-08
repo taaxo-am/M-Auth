@@ -1,5 +1,5 @@
 import React from 'react';
-import cam from '../img/cam.png'
+import cam from '../../../img/cam.png'
 import OrderItem from "./OrderItem";
 
 const Orders = () => {

@@ -1,5 +1,6 @@
 import React from 'react';
-import cam from "../img/cam.png";
+import cam from "../../../img/cam.png";
+import {Link} from "react-router-dom";
 
 const OrderItem = () => {
     return (
@@ -38,7 +39,9 @@ const OrderItem = () => {
 
                 </div>
                 <div className='col-3 d-flex flex-column align-items-center font-weight-bolder p-2'>
-                    <button className='btn btn-danger'>Buy Again</button>
+                    <Link to='/detail'>
+                        <button className='btn btn-danger'>Buy Again</button>
+                    </Link>
                 </div>
             </div>
             <hr className='mt-5'/>

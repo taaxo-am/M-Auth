@@ -1,6 +1,6 @@
 import React from 'react';
-import user from './img/user.png'
-import delivery from './img/delivery.png'
+import user from '../../img/user.png'
+import delivery from '../../img/delivery.png'
 import {Link} from "react-router-dom";
 import NavItem from "./NavItem";
 

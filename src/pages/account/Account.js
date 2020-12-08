@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css'
-import packaage from './img/packaage.png'
-import login from './img/login.png'
-import help from './img/help.png'
+import packaage from '../../img/packaage.png'
+import login from '../../img/login.png'
+import help from '../../img/help.png'
 import {Link} from "react-router-dom";
 import NavItem from "./NavItem";
 
